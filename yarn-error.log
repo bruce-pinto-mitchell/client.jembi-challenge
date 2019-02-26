@@ -1,0 +1,80 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\BruceMi\Documents\bin;C:\Users\BruceMi\Documents\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\BruceMi\Documents\vendor\conemu-maximus5;C:\Users\BruceMi\Documents\vendor\conemu-maximus5\ConEmu;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\BruceMi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\BruceMi\AppData\Roaming\npm;C:\Users\BruceMi\AppData\Local\Yarn\bin;C:\Users\BruceMi\AppData\Local\now-cli;C:\Program Files\Git\mingw64;C:\Program Files\Git\usr\bin;C:\Users\BruceMi\Documents
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  8.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\BruceMi\AppData\Local\Yarn\Cache\v2\npm-vue-template-es2015-compiler-1.9.1-1ee3bc9a16ecbf5118be334bb15f9c46f82f5825\.yarn-metadata.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:92:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:103:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "client.jembi-challenge",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "vue-cli-service serve",
+      "build": "vue-cli-service build",
+      "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+      "axios": "^0.18.0",
+      "vue": "^2.6.6",
+      "vue-router": "^3.0.2",
+      "vuetify": "^1.5.2"
+    },
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "^3.4.0",
+      "@vue/cli-plugin-eslint": "^3.4.0",
+      "@vue/cli-service": "^3.4.0",
+      "babel-eslint": "^10.0.1",
+      "eslint": "^5.8.0",
+      "eslint-plugin-vue": "^5.0.0",
+      "vue-template-compiler": "^2.5.21"
+    },
+    "eslintConfig": {
+      "root": true,
+      "env": {
+        "node": true
+      },
+      "extends": [
+        "plugin:vue/essential",
+        "eslint:recommended"
+      ],
+      "rules": {},
+      "parserOptions": {
+        "parser": "babel-eslint"
+      }
+    },
+    "postcss": {
+      "plugins": {
+        "autoprefixer": {}
+      }
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not ie <= 8"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
